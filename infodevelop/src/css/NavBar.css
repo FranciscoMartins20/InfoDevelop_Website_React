@@ -1,0 +1,45 @@
+/* Estilos para a barra de navegação */
+.navbar-custom {
+  background-color: white; /* Cor de fundo */
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 100px;
+
+}
+.navbar-custom .ml-auto {
+  margin-left: auto; /* Empurra os elementos para a direita */
+}
+
+.navbar-custom .navbar-brand {
+  color: black; /* Cor do texto */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: black; /* Cor dos links */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #00aeff; /* Cor dos links ao passar o mouse */
+}
+
+.navbar-logo {
+  height: 80px;
+}
+
+.nav-link-button {
+  
+  justify-content: flex-end; /* Justifica os itens à direita */
+}
+
+
+.nav-link-button .btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid transparent; /* Define a borda como transparente */
+  color: black;
+}
+.nav-link-button .btn:hover {
+  border-color: #00aeef  ; /* Altera a cor da borda ao passar o mouse */
+  background-color: #00aeef; /* Altera a cor de fundo ao passar o mouse */
+  color: black; /* Altera a cor do texto ao passar o mouse */
+}

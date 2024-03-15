@@ -1,0 +1,25 @@
+.service {
+
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  
+  .service-icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+  }
+  
